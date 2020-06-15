@@ -1,0 +1,155 @@
+.top-header {
+    padding: 10px;
+    background: #000000;
+    color: #808080;
+}
+
+.top-header .sign a {
+    text-transform: uppercase;
+    padding: 5px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.top-header .sign a:last-of-type {
+    padding: 7px;
+    border-left: 1px solid #808080;
+}
+
+.top-header .contacts a {
+    color: #808080;
+
+}
+
+.second-header {
+    background: url(../images/_100177957_k2.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    background-position: center;
+    
+}
+
+.second-header .logo {
+    color: #fff;
+}
+
+.second-header .menu a {
+    color: #fff;
+}
+
+
+.search {
+    color: #fff;
+    margin-top: 100px;
+}
+
+.search form input[type="search"] {
+    width: 90%;
+    border-radius: 0px;
+    border: 1px solid #808080;
+    border-right: 0px;
+
+}
+
+.search form button[type="submit"] {
+    background: #008000;
+    border-radius: 0px;
+    border-right: #808080;
+    color: #fff;
+}
+
+.search p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.our {
+    background: #f2f2f2
+}
+
+.our h2 {
+    font-weight: normal;
+}
+
+.our h3{
+    font-weight: normal;
+}
+.our p{
+    color: #8c8c8c;
+}
+.our.our2 {
+    background: #e6e6e6;
+}
+
+.read {
+    padding: 50px;
+}
+.read h2 {
+   
+    font-size: 30px;
+}
+.read p {
+    font-size: 15px;
+}
+
+.read .edit {
+    background: #333;
+    color: #fff;
+    padding: 20px 5px;
+}
+
+.ref a{
+    color: #444;
+    font-size: 17px;
+    font-weight: normal;
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+hr {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    /* border: 0; */
+    border-top: 1px solid rgba(0,0,0,0.7);
+}
+
+
+footer{
+    padding: 50px;
+    
+}
+
+.brand {
+    width: 70px;
+    height: 70px;
+    background: #3f5999;
+    color: #fff;
+    border-radius: 50%;
+    justify-content: center;
+    /* align-content: center; */
+    text-align: center;
+    line-height: 75px;
+    font-size: 40px;
+    align-items: ;
+}
+
+.brand.t{
+    background: #00abeb;
+}
+
+.brand.p{
+    background: #cd242b;
+}
+
+
+@media (max-width: 991.98px) { 
+  
+    .ha{
+        text-align: center !important;
+    }
+    .search form input[type="search"] {
+        width: 70%; }
+
+}
